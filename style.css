@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;0,8..144,400;0,8..144,500;0,8..144,600;0,8..144,700;0,8..144,800;0,8..144,900;1,8..144,100;1,8..144,200;1,8..144,300;1,8..144,400;1,8..144,500;1,8..144,600;1,8..144,700;1,8..144,800;1,8..144,900&display=swap');
+
+* {
+  font-family: 'Roboto Serif', serif;
+  font-weight: 450;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #B7C0EE;
+  color: #32021F;
+}
+h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 650;
+}
+hr {
+  margin-top: 1em;
+  color: #32021F;
+}
+h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+h3 {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 475;
+  color: #7067CF;
+}
+.subtitle {
+font-style: italic;
+font-weight: 525;
+color: #4B2E39;
+}
+.container {
+  background-color: #C5D5E4;
+  padding: 2em;
+  border-style: double;
+  border-radius: 2em;
+  width: 80%;
+  margin: 0 auto;
+}
+.submit {
+  border: none;
+  background-color: #D77A61;
+  padding: 0.5em;
+  border-radius: 1em;
+  color: ghostwhite;
+  transition: 0.4s;
+}
+.submit:hover {
+  background-color: #e75026cc;
+  color: whitesmoke;
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+form {
+  margin: 2em auto;
+  width: 20em;
+}
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  color: #4e3a42;
+  font-size: large;
+  margin-bottom: 1.5rem;
+  outline: none;
+}
+input {
+  border: none;
+  border-bottom: 1.5px solid #4B2E39;
+  background-color: whitesmoke;
+}
+::placeholder {
+  font-style: italic;
+  color:lightslategray
+}
+#madLibResponse p {
+  width: 35em;
+  margin: 1em auto;
+  text-indent: 2em;
+  line-height: 1.5em;
+}
+.mad-lib {
+  width: 20em;
+  margin: 1em auto;
+}
+strong { 
+ color: #A63446;
+ font-weight: 800;
+ text-decoration: underline 1.5px;
+}

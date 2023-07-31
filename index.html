@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="author" content="Samuel Larson">
+  <meta name="description" content="Create your own Mad Lib">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mad Libs</title>
+  <link rel="icon" href="images/smiley.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Mad Libs!</h1>
+</header>
+  <main>
+    <section id="madLibForm" class="container">
+      <h2 class="subtitle">Super Secret Special Club</h2>
+        <h3>Fill out the form to make a Mad Lib:</h3>
+      <hr>
+      <br>  
+      <form>
+      <div class="form-group">
+        <label for="adj1">Adjective:</label>
+        <input type="text" id="adj1"  name="adj1" placeholder="small" required>
+      </div>
+      <div class="form-group">
+        <label for="noun1">Noun:</label>
+        <input type="text" id="noun1" placeholder="armadillo" name="noun1" required>
+      </div>
+      <div class="form-group">
+        <label for="adj2">Adjective:</label>
+        <input type="text" id="adj2" placeholder="big" name="adj2" required>
+      </div>
+      <div class="form-group">
+        <label for="clothing">Clothing:</label>
+        <input type="text" id="clothing" placeholder="jeans" name="clothing" required>
+      </div>
+      <div class="form-group">
+        <label for="bodyPart">Body Part:</label>
+        <input type="text" id="bodyPart" placeholder="arm" name="bodyPart" required>
+      </div>
+      <div class="form-group">
+        <label for="verb1">Verb:</label>
+        <input type="text" id="verb1" placeholder="run" name="verb1" required>
+      </div>
+      <div class="form-group">
+        <label for="food">Food:</label>
+        <input type="text" id="food" placeholder="pizza" name="food" required>
+      </div>
+    <br>
+        <button class="submit" id="submit">Submit</button> 
+      </form>
+      <hr>
+    </section>
+    <br>
+    <section id="madLibResponse">
+      <h2 class="subtitle">Your Super Secret Special Club:</h2>
+      <p class="mad-lib"></p>
+<script src="main.js"></script>
+    </section>
+  </main>
+  <footer>
+  </footer>
+</body>
+</html>
